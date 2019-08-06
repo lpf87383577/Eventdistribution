@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:text="MultiTouchView1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt1"
+        android:onClick="bt1"
+        />
+    <Button
+        android:text="MultiTouchView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt2"
+        android:onClick="bt2"/>
+    <Button
+        android:text="MultiTouchView3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt3"
+        android:onClick="bt3"
+        />
+    <Button
+        android:text="ScalableImageView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt4"
+        android:onClick="bt4"
+        />
+
+
+    <Button
+        android:text="GestureDetectorCompat"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt5"
+        android:onClick="bt5"
+        />
+
+    <Button
+        android:text="RefreshView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt6"
+        android:onClick="bt6"
+        />
+</LinearLayout>
