@@ -205,6 +205,7 @@ public class ScalableImageView extends View {
     class HenScaleListener implements ScaleGestureDetector.OnScaleGestureListener {
         float initialScale;
 
+        //缩放
         @Override
         public boolean onScale(ScaleGestureDetector detector) {
             currentScale = initialScale * detector.getScaleFactor();
@@ -212,6 +213,7 @@ public class ScalableImageView extends View {
             return false;
         }
 
+        // 这里返回true ，才能进入onscale()函数
         @Override
         public boolean onScaleBegin(ScaleGestureDetector detector) {
             initialScale = currentScale;

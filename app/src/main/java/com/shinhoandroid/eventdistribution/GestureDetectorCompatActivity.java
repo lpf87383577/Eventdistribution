@@ -22,12 +22,14 @@ public class GestureDetectorCompatActivity extends AppCompatActivity {
 
     }
 
+    //在onTouchEvent里面接管事件
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         gdc.onTouchEvent(event);
         return super.onTouchEvent(event);
     }
 
+    //手势监听回调
     public class HenGestureListener extends GestureDetector.SimpleOnGestureListener {
 
         @Override
